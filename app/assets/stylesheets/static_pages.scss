@@ -1,0 +1,61 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: rgba(255, 255, 255, 1);
+}
+
+#custom-bootstrap-menu.navbar-default {
+  font-size: 14px;
+  background-color: rgba(27, 61, 105, 1);
+  background: -webkit-linear-gradient(top, rgba(78, 123, 181, 1) 0%, rgba(27, 61, 105, 1) 100%);
+  background: linear-gradient(to bottom, rgba(78, 123, 181, 1) 0%, rgba(27, 61, 105, 1) 100%);
+  border-bottom-width: 0px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(27, 61, 105, 1);
+  background: -webkit-linear-gradient(top, rgba(78, 123, 181, 1) 0%, rgba(27, 61, 105, 1) 100%);
+  background: linear-gradient(to bottom, rgba(78, 123, 181, 1) 0%, rgba(27, 61, 105, 1) 100%);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #1b3d69;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #1b3d69;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #1b3d69;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #1b3d69;
+}
+
+.space-50 {
+	margin-top: 50px;
+}
+
+.intro {
+	padding: 100px;
+}

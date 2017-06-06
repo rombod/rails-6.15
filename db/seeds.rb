@@ -1,0 +1,11 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+Product.create(:name => "BMW Cruise Bike", :description => "The new version of the BMW Cruise Bike – the classic within the BMW bicycle fleet – comes in 2016 either in Mineral White or Aqua Pearl Blue. To increase the driving comfort even more and to adapt the bike optimally to the body size, BMW added an extra frame size to its portfolio.", :colour => "Blue", :image_url => "http://cdn.bmwblog.com/wp-content/uploads/2016/03/New-BMW-Bikes-1-1024x722.jpg", :price_in_cents => "96500")
+Product.create(:name => "SLR Endurance 9.2 Dura Ace", :description => "The SLR Endurance 9.2 Dura-Ace Complete Road Bike's Dura-Ace shifting and carbon fiber FSA crankset should tell you all you need to know about the top-end mechanical entry in Boardman's so-called 'endurance' line. Specifically, it's a race bike, not (just) a comfort rig. By relocating the endurance bike from the SLS's gran fondo neighborhood to the SLR's racing borough, Boardman has removed any doubts about the SLR Endurance's true intentions.", :colour => "White", :image_url => "http://content.backcountry.com/images/items/1200/BMB/BMB0019/GLPEWHBK.jpg", :price_in_cents => "299900")
+Product.create(:name => "V10 Carbon GX ", :description => "The new Santa Cruz V10 is here, and it arrives to the cries of its competition. As the first all-carbon downhill bike to take a World Championship title, the 26-inch wheeled V10 was revolutionary. The new model's 27.5-inch wheels and revised geometry make the next generation even more so, as proven by the massive success of the Santa Cruz Syndicate's 2014 season, which came despite cries from the purists that nothing could usurp the durability and maneuverability of the 26-inch wheel. To them we say: welcome to the future.", :colour => "Grey", :image_url => "http://content.backcountry.com/images/items/900/SNZ/SNZ003T/BLA.jpg", :price_in_cents => "455800")
